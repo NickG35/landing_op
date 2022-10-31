@@ -33,3 +33,27 @@ a{
     display:flex;
     align-items:center;
 }
+
+.signup{
+    background-color:#1F2937;
+}
+
+.top-text{
+    font-size:48px;
+    font-weight:400;
+    color:#F9FAF8;
+    margin-bottom:0;
+}
+
+.bottom-text{
+    font-size:18px;
+    color:#f9faf8;
+    margin-top:0;
+}
+
+.quote{
+    background-color:#e5e7eb;
+    font-size:36px;
+    font-style:light italic;
+    color:#1F2937;
+}
