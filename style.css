@@ -1,3 +1,7 @@
+body{
+    margin:0px;
+    padding:0px;
+}
 .header{
     flex:1;
     display:flex;
@@ -59,6 +63,9 @@ a{
     margin-left:200px;
     padding-left:15px;
     padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:100px;
     font-family:system-ui;
     font-weight:450;
 }
@@ -131,8 +138,8 @@ img{
 }
 
 .quote{
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:75px;
+    padding-bottom:75px;
     background-color:#e5e7eb;
     font-family:system-ui;
 }
@@ -153,4 +160,55 @@ img{
     font-weight:600;
     color:black;
     margin-left:1275px;
+    line-height:0;
+}
+
+.call{
+    Position:relative;
+    background-color: #3882F6;
+    padding-left:100px;
+    padding-top:25px;
+    padding-bottom:25px;
+   margin-left:225px;
+   margin-right:225px;
+   margin-top:70px;
+   margin-bottom:70px;
+   font-family:system-ui;
+}
+
+.action{
+    font-size:24px;
+    font-weight:600;
+    color:#f9faf8;
+    line-height:0;
+}
+
+.product{
+    font-size:18px;
+    color:#E5E7EB;
+    margin:0;
+    line-height:0;
+}
+
+.signed{
+    position:absolute;
+    top:40px;
+    right:125px;
+    background: #3882F6;
+    border: 2px solid #ddd;
+    color: white;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:100px;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    background-color: #1F2937;
+    color:white;
+    font-family:system-ui;
+    padding: 35px;
 }
