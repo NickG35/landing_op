@@ -131,9 +131,26 @@ img{
 }
 
 .quote{
+    padding-top:50px;
+    padding-bottom:50px;
     background-color:#e5e7eb;
+    font-family:system-ui;
+}
+
+.inspire{
+    display:flex;
     font-size:36px;
     font-style:italic;
-    font-family:system-ui;
-    color:#1F2937;
+    color:grey;
+    justify-content:center;
+    margin-left:350px;
+    margin-right:350px;
+}
+
+.author{
+    display:flex;
+    font-size:24px;
+    font-weight:600;
+    color:black;
+    margin-left:1275px;
 }
