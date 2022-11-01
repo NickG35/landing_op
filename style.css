@@ -23,7 +23,6 @@
     justify-content:center;
     max-width: fit-content;
     margin-left:1200px;
-    margin-bottom:100px;
 }
 
 ul{
@@ -68,6 +67,54 @@ a{
 .top-text, .bottom-text {
     margin-left:200px;
 
+}
+
+.infotitle{
+    display:flex;
+    justify-content:center;
+    font-size:36px;
+    font-weight:725;
+    font-family:system-ui;
+    margin-top:0;
+}
+
+.infoimages{
+    justify-content:center;
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    padding-bottom:50px;
+  }
+
+  .popcorn{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.theater{
+    margin-top:10px;
+    width:300px;
+}
+
+.drinks{
+    margin-top: 10px;
+    width:300px;
+}
+
+.arcade{
+    margin-top:10px;
+    width: 300px;
+}
+
+.text{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+img{
+    height: 250px;
+    width: 250px;
 }
 
 .quote{
